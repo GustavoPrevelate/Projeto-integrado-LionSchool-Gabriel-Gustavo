@@ -1,0 +1,33 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: grid;
+  width: 100%;
+  grid-template-rows: 10vh 75vh 15vh;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+header {
+  background-color: var(--secondary-color);
+  padding: 0px 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--secondary-color);
+  padding: 0px 96px;
+  min-height: 15vh;
+}

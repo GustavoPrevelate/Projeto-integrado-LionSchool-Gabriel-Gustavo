@@ -1,0 +1,25 @@
+/* Header do index.html */
+
+.container-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .texto_logo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    max-width: 75px;
+    color: var(--primary-color);
+  }
+  
+  .container-sair {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .texto_sair{
+    font-size: 2.25rem;
+    color: var(--primary-color);
+  }

@@ -1,0 +1,87 @@
+/* Main do alunoEspecifico.html */
+
+.area_aluno_especifico {
+    max-width: 1440px;
+    width: 100%;
+    padding: 100px 96px 60px 96px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 75vh;
+  }
+  
+  .container_aluno_selecionado {
+    width: 500px;
+    height: 500px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .container_aluno_selecionado:hover {
+    box-shadow: 0 4px 4px #999;
+    transition: all 0.2s;
+    transform: scale(1.02);
+  }
+  
+  .imagem_aluno {
+    width: 400px;
+    height: 400px;
+  }
+  
+  .nome_aluno {
+    font-size: 1.125rem;
+    color: var(--secondary-color);
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    user-select: none;
+    text-transform: uppercase;
+  }
+  
+  .container_grafico_desempenho_aluno {
+    font-family: "Poppins";
+    font-size: 1.125rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+    user-select: none;
+  }
+  
+  .container_grafico_desempenho_aluno:hover {
+    box-shadow: 0 4px 4px #999;
+    transition: all 0.2s;
+    transform: scale(1.02);
+  }
+  
+  .grade {
+    display: grid;
+    gap: 12px;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .container_grade {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 12px;
+    border-radius: 2rem;
+    background-color: #eeeff8;
+    height: 300px;
+    width: 16px;
+  }
+  
+  .barras_grade {
+    border-radius: 2rem;
+    height: 50%;
+  }
+  
+  .atributos_nome_grade {
+    color: var(--secondary-color);
+  }

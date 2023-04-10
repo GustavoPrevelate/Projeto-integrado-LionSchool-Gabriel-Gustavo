@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description" content="Site Lion School." />
+
+    <!-- Logo do site -->
+    <link rel="shortcut icon" href="./img/imagem-logo.png" type="image/x-icon" />
+
+    <!-- Titulo do site -->
+    <title>Desempenho Aluno</title>
+
+    <!-- importacao de recursos css -->
+    <link rel="stylesheet" href="./css/root.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/alunoEspecificoCSSs/alunoEspecificoStyle.css" />
+    <link rel="stylesheet" href="./css/alunoEspecificoCSSs/alunoEspecificoHeader.css">
+    <link rel="stylesheet" href="./css/alunoEspecificoCSSs/alunoEspecificoMain.css">
+    <link rel="stylesheet" href="./css/alunoEspecificoCSSs/alunoEspecificoFooter.css">
+    <link rel="stylesheet" href="./css/alunoEspecificoCSSs/alunoEspecificoResponsiveStyle.css" />
+
+    <!-- importação de recursos javascript -->
+    <script src="./js/dadosEstudante.js" defer></script>
+
+    <!-- Links para fontes do site -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet"/>
+
+    <!-- Kit para icones -->
+    <script src="https://kit.fontawesome.com/3cc9c6ad82.js" crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+    <header>
+      <!-- Container com icone e titulo do site -->
+      <a href="./index.html" class="container-logo">
+        <img src="./img/imagem-logo.png" alt="Logo Image" class="imagem_logo" />
+        <span class="texto_logo">Lion School</span>
+      </a>
+      <!-- container para voltar para página anterior -->
+      <a href="./alunos.html" class="container_retornar">
+        <img src="./img/icone-sair.png" alt="Icone retornar" class="icone_retornar"/>
+        <span class="texto_retornar">Voltar</span>
+      </a>
+    </header>
+    <main>
+      <div class="area_aluno_especifico">
+        <!-- Container do estudante selecionado -->
+        <div class="container_aluno_selecionado"></div>
+        <!-- container com o gráfico que obtém o desempenho do estudante em cada matéria -->
+        <div class="container_grafico_desempenho_aluno"></div>
+      </div>
+    </main>
+    <footer>
+      <!-- Container de meios de contato informations-container-->
+      <ul class="container_meios_contato">
+        <!-- informação do número da escola -->
+        <li class="informacoes">
+          <i class="fas fa-phone-alt"></i>
+          <span class="texto_informacoes">(11) 4774-4700</span>
+        </li>
+        <!-- informação do e-mail da escola  -->
+        <li class="informacoes">
+          <i class="fas fa-envelope"></i>
+          <span class="texto_informacoes">lionschool@gmail.com</span>
+        </li>
+        <!-- informação sobre o endereço da escola -->
+        <li class="informacoes">
+          <i class="fas fa-map-marker-alt"></i>
+          <span class="texto_informacoes">Rua tcc, 211, Centro, Jandira</span>
+        </li>
+      </ul>
+      <!-- Direitores autorais do site -->
+      <p class="texto_copyright_site">Copyright © 2022 | Gabriel Henrique / Gustavo Prevelate</p>
+      <!-- Medias sociais referente a escola -->
+      <nav class="container_midias_sociais">
+        <a href="#" class="midia_social"><i class="fab fa-youtube"></i></a>
+        <a href="#" class="midia_social"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="midia_social"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="midia_social"><i class="fab fa-facebook-f"></i></a>
+      </nav>
+    </footer>
+  </body>
+</html>

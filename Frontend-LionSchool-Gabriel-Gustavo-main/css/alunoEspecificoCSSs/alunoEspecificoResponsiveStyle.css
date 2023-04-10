@@ -1,0 +1,149 @@
+@media (max-width: 1290px) {
+  body {
+    grid-template-rows: 10vh auto 15vh;
+  }
+
+  header {
+    padding: 0px 46px;
+  }
+
+  .area_aluno_especifico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 42px;
+    padding: 50px 0px;
+  }
+
+  .container_midias_sociais {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    align-content: center;
+    gap: 8px;
+  }
+
+  footer {
+    padding: 0px 46px;
+  }
+}
+
+@media (max-width: 945px) {
+  body {
+    grid-template-rows: 10vh auto auto;
+  }
+
+  .texto_logo {
+    display: none;
+  }
+
+  .texto_retornar {
+    display: none;
+  }
+
+  .imagem_logo {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+
+  .icone_retornar{
+    width: 4.2rem;
+    height: 4.2rem;
+  }
+
+  footer {
+    padding: 24px 12px;
+    display: grid;
+    grid-template-areas:
+      "copyright"
+      "informations"
+      "social";
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .container_meios_contato {
+    grid-area: informations;
+    padding-left: 40px;
+  }
+
+  .texto_copyright_site {
+    grid-area: copyright;
+    text-align: center;
+  }
+
+  .container_midias_sociais {
+    grid-area: social;
+    display: flex;
+    padding-left: 20px;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container_aluno_selecionado {
+    width: 200px;
+    height: 335px;
+  }
+
+  .imagem_aluno {
+    width: 200px;
+    height: 200px;
+  }
+
+  .container_grafico_desempenho_aluno {
+    height: fit-content;
+    padding: 12px 0px;
+    flex-direction: column;
+    width: 330px;
+  }
+
+  .grade {
+    grid-template-areas:
+      "name ."
+      "bar grade";
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+  }
+
+  .container_grade {
+    grid-area: bar;
+  }
+
+  .grade_titulo {
+    grid-area: grade;
+  }
+
+  .nome_aluno {
+    grid-area: name;
+    width: 100%;
+  }
+
+  .container_grade {
+    width: 250px;
+    height: 16px;
+  }
+}
+
+@media (max-width: 390px) {
+  .container_grafico_desempenho_aluno {
+    width: 240px;
+  }
+
+  .container_grade {
+    width: 150px;
+  }
+}
+
+@media (max-height: 800px) {
+  .imagem_logo {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+
+  .icone_retornar{
+    width: 4.2rem;
+    height: 4.2rem;
+  }
+}

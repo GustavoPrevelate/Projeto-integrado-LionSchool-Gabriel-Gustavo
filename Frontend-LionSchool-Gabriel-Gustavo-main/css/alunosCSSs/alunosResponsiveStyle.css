@@ -1,0 +1,117 @@
+@media (max-width: 1290px) {
+  header {
+    padding: 0px 46px;
+  }
+
+  .area_alunos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 75vh;
+    gap: 42px;
+  }
+
+  .container_status_aluno {
+    width: 100%;
+  }
+
+  .titulo_curso {
+    margin: 0;
+    padding-top: 24px;
+  }
+
+  .container_alunos {
+    margin: 0px 0px 115px 0px;
+  }
+
+  .social-medias-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    align-content: center;
+    gap: 8px;
+  }
+
+  footer {
+    padding: 0px 46px;
+  }
+}
+
+@media (max-width: 945px) {
+  body {
+    grid-template-rows: 10vh auto auto;
+  }
+
+  .texto_logo {
+    display: none;
+  }
+
+  .texto_retornar {
+    display: none;
+  }
+
+  .titulo_curso {
+    font-size: 2rem;
+  }
+
+  .container_status_aluno {
+    display: flex;
+    padding: 14px 0px;
+    height: fit-content;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+
+  .filtragem_containers{
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .indicador_status {
+    flex-direction: column;
+    padding-top: 16px;
+    padding-right: 40px;
+    gap: 6px;
+  }
+
+  footer {
+    padding: 24px 12px;
+    display: grid;
+    grid-template-areas:
+      "copyright"
+      "informations"
+      "social";
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .container_meios_contato {
+    grid-area: informations;
+    padding-left: 60px;
+  }
+
+  .texto_copyright_site {
+    grid-area: copyright;
+    text-align: center;
+  }
+
+  .container_midias_sociais {
+    grid-area: social;
+    display: flex;
+    padding-left: 40px;
+    gap: 20px;
+  }
+}
+
+@media (max-height: 800px) {
+  .imagem_logo {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+
+  .icone_retornar{
+    width: 4.2rem;
+    height: 4.2rem;
+  }
+}

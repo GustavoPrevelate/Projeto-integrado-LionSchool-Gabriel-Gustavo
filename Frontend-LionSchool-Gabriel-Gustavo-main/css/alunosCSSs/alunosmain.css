@@ -1,0 +1,141 @@
+/* Main alunos.html */
+
+.area_alunos {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 69.75vh;
+  }
+  
+  .container_status_aluno {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #bcc2e5;
+    height: 50px;
+    padding: 0px 96px;
+    user-select: none;
+    width: 100%;
+  }
+  
+  .filtragem_containers {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .filtragem__status {
+    background-color: var(--secondary-color);
+    color: var(--secondary-color);
+    appearance: none;
+    border: none;
+    outline: none;
+    color: var(--primary-color);
+    font-size: 16px;
+    padding: 8px 30px 8px 8px;
+    border-bottom: 4px solid black;
+    border-radius: 16px;
+    text-align: left;
+  }
+  
+  .ano__filtragem {
+    background-color: var(--secondary-color);
+    appearance: none;
+    border: none;
+    outline: none;
+    color: var(--primary-color);
+    font-size: 16px;
+    padding: 8px 30px 8px 8px;
+    border-bottom: 4px solid black;
+    border-radius: 16px;
+    text-align: left;
+  }
+  
+  .tipo_filtragem {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: 13px;
+    padding: 4px;
+  }
+  
+  .indicador_status {
+    display: flex;
+    gap: 24px;
+    color: var(--secondary-color);
+  }
+  
+  .indicador_aluno_cursando {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .indicador_aluno_finalizado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .label_aluno_cursando {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.55);
+  }
+  
+  .label_aluno_finalizado{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--tertiary-color);
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.55);
+  }
+  
+  .titulo_curso{
+    color: var(--secondary-color);
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 35px;
+    user-select: none;
+  }
+  
+  .container_alunos {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 62px;
+    margin: 50px 96px 115px 96px;
+  }
+  
+  .aluno {
+    width: 200px;
+    height: 300px;
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    box-shadow: 0px 0px 22px rgba(202, 202, 202, 0.55);
+  }
+  
+  .aluno:hover {
+    box-shadow: 0 4px 4px #999;
+    transition: all 0.5s;
+    transform: 
+    scale(1.05);
+    -webkit-filter: drop-shadow(15px 10px 5px rgb(202, 202, 202));
+    filter: drop-shadow(15px 10px 5px rgb(202, 202, 202));
+    cursor: pointer;
+  }
+  
+  .nome_aluno {
+    font-weight: 500;
+    padding: 0px 12px;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.55);
+    text-transform: uppercase;
+    color: var(--primary-color);
+  }

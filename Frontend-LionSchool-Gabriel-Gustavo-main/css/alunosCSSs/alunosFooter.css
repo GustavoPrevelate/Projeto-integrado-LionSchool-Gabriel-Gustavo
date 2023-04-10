@@ -1,0 +1,49 @@
+/* Footer alunos.html */
+
+.container_meios_contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+  }
+  
+  .informacoes {
+    display: flex;
+    gap: 24px;
+    font-weight: 400;
+    user-select: none;
+  }
+  
+  .texto_copyright_site{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    user-select: none;
+  }
+  
+  .container_midias_sociais {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .midia_social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    border: 1px solid var(--primary-color);
+  }
+  
+  .midia_social:hover {
+    background-color: #bcc2e56e;
+    transition: all 0.5s;
+  }
+  
+  .midia_social > i {
+    font-size: 1.375rem;
+    color: var(--primary-color);
+    line-height: 0;
+  }

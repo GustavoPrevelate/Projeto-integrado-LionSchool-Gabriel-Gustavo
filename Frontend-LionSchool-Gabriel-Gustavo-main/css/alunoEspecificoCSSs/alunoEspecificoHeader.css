@@ -1,0 +1,25 @@
+/* Header do alunoEspecifico.html */
+
+.container-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .texto_logo{
+    font-weight: 700;
+    font-size: 1.5rem;
+    max-width: 75px;
+    color: var(--primary-color);
+  }
+  
+  .container_retornar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .texto_retornar {
+    font-size: 2.25rem;
+    color: var(--primary-color);
+  }
