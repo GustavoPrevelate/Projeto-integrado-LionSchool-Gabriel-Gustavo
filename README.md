@@ -4,7 +4,7 @@
 
 # Portfólio
 
-![Screenshot](./img/home.png)
+![Screenshot](./img-readme/home.png)
 
 [Clique aqui](https://gustavoprevelate.github.io/Frontend-LionSchool-Gabriel-Gustavo/) para visitar o site.
 
@@ -27,25 +27,25 @@ Site da escola Lion school. O objetivo deste projeto é colocar em prática os c
 
 - Figma
 
-![Screenshot](./img/figma.png)
+![Screenshot](./img-readme/figma.png)
 
 [Clique aqui](https://www.figma.com/file/r4BhHJzzHDcv9LK333T2d5/LionSchool?node-id=0-1&t=fd15MEUdozzYvWnK-0) para visitar o Figma.
 
 - Home
 
-![Screenshot](./img/home.png)
+![Screenshot](./img-readme/home.png)
 
 - Desenvolvimento
 
-![Screenshot](./img/desenvolvimento.png)
+![Screenshot](./img-readme/desenvolvimento.png)
 
 - Redes
 
-![Screenshot](./img/redes.png)
+![Screenshot](./img-readme/redes.png)
 
 - Aluno
 
-![Screenshot](./img/aluno.png)
+![Screenshot](./img-readme/aluno.png)
 
 ---
 ## Relatórios do LightHouse
@@ -53,15 +53,15 @@ O LightHouse basicamente analisa todo o seu site, indicando como está determina
 
 - LightHouse Home
 
-![Report](./img/home-light-house.png)
+![Report](./img-readme/home-light-house.png)
 
 - LightHouse alunos
 
-![Report](./img/alunos-light-house.png)
+![Report](./img-readme/alunos-light-house.png)
 
 - LightHouse aluno
 
-![Report](./img/aluno-light-house.png)
+![Report](./img-readme/aluno-light-house.png)
 
 ---
 ## Equipe
