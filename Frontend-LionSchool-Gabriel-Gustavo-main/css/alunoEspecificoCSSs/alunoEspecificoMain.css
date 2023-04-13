@@ -1,87 +1,86 @@
 /* Main do alunoEspecifico.html */
 
 .area_aluno_especifico {
-    max-width: 1440px;
+    max-width: 1920px;
     width: 100%;
-    padding: 100px 96px 60px 96px;
+    padding: 150px 120px 90px 150px;
     display: flex;
     justify-content: space-between;
-    min-height: 75vh;
+    min-height: 40vh;
   }
   
   .container_aluno_selecionado {
-    width: 500px;
-    height: 500px;
-    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 4px;
+    width: 550px;
+    height: 550px;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
+    gap: 20px;
   }
   
   .container_aluno_selecionado:hover {
-    box-shadow: 0 4px 4px #999;
+    box-shadow: 0 8px 8px rgb(100, 100, 100);
     transition: all 0.2s;
-    transform: scale(1.02);
+    transform: scale(1.1);
   }
   
   .imagem_aluno {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
   }
   
   .nome_aluno {
-    font-size: 1.125rem;
+    font-size: 1.5rem;
+    font-style: italic;
     color: var(--secondary-color);
     text-align: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    user-select: none;
-    text-transform: uppercase;
+    text-shadow: 0px 8px 8px rgba(0, 0, 0, 0.60);
   }
   
   .container_grafico_desempenho_aluno {
-    font-family: "Poppins";
-    font-size: 1.125rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 500px;
-    height: 500px;
-    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
-    user-select: none;
+    font-family: "Poppins";
+    font-size: 1.2rem;
+    width: 550px;
+    height: 550px;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.60);
   }
   
   .container_grafico_desempenho_aluno:hover {
-    box-shadow: 0 4px 4px #999;
+    box-shadow: 0 8px 8px rgb(100, 100, 100);
     transition: all 0.2s;
-    transform: scale(1.02);
+    transform: scale(1.1);
   }
   
   .grade {
     display: grid;
-    gap: 12px;
-    grid-template-rows: auto auto auto;
     justify-items: center;
-    font-weight: 700;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    gap: 24px;
+    grid-template-rows: auto auto auto;
+    font-weight: 900;
+    text-shadow: 0px 8px 8px rgba(0, 0, 0, 0.60);
   }
   
   .container_grade {
     display: flex;
     flex-direction: column-reverse;
-    gap: 12px;
-    border-radius: 2rem;
+    gap: 24px;
+    border-radius: 3rem;
     background-color: #eeeff8;
-    height: 300px;
-    width: 16px;
+    height: 350px;
+    width: 20px;
   }
   
   .barras_grade {
     border-radius: 2rem;
-    height: 50%;
+    height: 100%;
   }
   
   .atributos_nome_grade {
     color: var(--secondary-color);
+    font-style: italic;
   }

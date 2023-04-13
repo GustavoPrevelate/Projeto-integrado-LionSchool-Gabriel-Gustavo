@@ -1,33 +1,29 @@
 /* Main alunos.html */
 
 .area_alunos {
-    max-width: 1440px;
+    max-width: 1920px;
     width: 100%;
-    min-height: 69.75vh;
+    min-height: 80vh;
   }
   
   .container_status_aluno {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #bcc2e5;
-    height: 50px;
-    padding: 0px 96px;
+    background-color: rgb(255, 210, 125);
+    height: 75px;
+    padding: 20px 120px;
     user-select: none;
     width: 100%;
   }
   
   .filtragem_containers {
     display: flex;
-    gap: 24px;
+    gap: 48px;
   }
   
   .filtragem__status {
     background-color: var(--secondary-color);
-    color: var(--secondary-color);
-    appearance: none;
-    border: none;
-    outline: none;
     color: var(--primary-color);
     font-size: 16px;
     padding: 8px 30px 8px 8px;
@@ -38,9 +34,6 @@
   
   .ano__filtragem {
     background-color: var(--secondary-color);
-    appearance: none;
-    border: none;
-    outline: none;
     color: var(--primary-color);
     font-size: 16px;
     padding: 8px 30px 8px 8px;
@@ -52,34 +45,34 @@
   .tipo_filtragem {
     background-color: var(--secondary-color);
     color: var(--primary-color);
-    font-size: 13px;
-    padding: 4px;
+    padding: 20px;
+    font-size: 16px;
   }
   
   .indicador_status {
     display: flex;
-    gap: 24px;
     color: var(--secondary-color);
+    gap: 16px;
   }
   
   .indicador_aluno_cursando {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8px;
+    gap: 16px;
   }
   
   .indicador_aluno_finalizado {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8px;
+    gap: 16px;
   }
 
   .label_aluno_cursando {
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
     background-color: var(--secondary-color);
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.55);
@@ -87,8 +80,8 @@
   
   .label_aluno_finalizado{
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
     background-color: var(--tertiary-color);
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.55);
@@ -96,10 +89,9 @@
   
   .titulo_curso{
     color: var(--secondary-color);
-    font-size: 4rem;
+    font-size: 4.2rem;
     text-align: center;
-    margin-top: 35px;
-    user-select: none;
+    margin-top: 40px;
   }
   
   .container_alunos {
@@ -108,34 +100,31 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 62px;
-    margin: 50px 96px 115px 96px;
+    margin: 100px 50px 40px 20px;
   }
   
   .aluno {
-    width: 200px;
-    height: 300px;
-    background-color: var(--secondary-color);
     display: flex;
     flex-direction: column;
+    width: 250px;
+    height: 350px;
+    background-color: var(--secondary-color);
     gap: 16px;
-    box-shadow: 0px 0px 22px rgba(202, 202, 202, 0.55);
+    box-shadow: 0px 0px 30px rgba(223, 223, 223, 0.822);
   }
   
   .aluno:hover {
-    box-shadow: 0 4px 4px #999;
     transition: all 0.5s;
     transform: 
-    scale(1.05);
-    -webkit-filter: drop-shadow(15px 10px 5px rgb(202, 202, 202));
-    filter: drop-shadow(15px 10px 5px rgb(202, 202, 202));
+    scale(1.1);
     cursor: pointer;
   }
   
   .nome_aluno {
-    font-weight: 500;
-    padding: 0px 12px;
+    font-weight: 700;
+    padding: 0px 24px;
     text-align: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.55);
+    text-shadow: 0px 8px 8px rgba(0, 0, 0, 0.822);
     text-transform: uppercase;
     color: var(--primary-color);
   }

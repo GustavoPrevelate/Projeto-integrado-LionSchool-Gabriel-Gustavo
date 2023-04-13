@@ -1,21 +1,21 @@
 /* Main do index.html */
 
 .area_main{
-    max-width: 1440px;
+    max-width: 1920px;
     width: 100%;
-    padding: 98px 96px;
+    padding: 120px 120px;
     display: grid;
     grid-template-areas:
       "title   student courses"
       "devices student courses";
-    grid-template-columns: 1fr 0.5fr 1fr;
+    grid-template-columns: 1.5fr 0.5fr 1.5fr;
     justify-content: center;
-    min-height: 75vh;
+    min-height: 40vh;
   }
   
   .sugestão_curso {
     grid-area: title;
-    font-size: 3.625rem;
+    font-size: 3.7rem;
     font-family: 700;
     color: #353535;
     user-select: none;
@@ -39,7 +39,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 100px;
   }
   
   .card_cursos {
@@ -47,20 +47,17 @@
     justify-content: center;
     align-items: center;
     gap: 24px;
-    width: 400px;
-    height: 200px;
+    width: 500px;
+    height: 250px;
     background-color: var(--secondary-color);
-    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
     user-select: none;
     color: var(--primary-color);
   }
   
   .card_cursos:hover {
-    box-shadow: 0 4px 4px #999;
-    transition: all 0.2s;
-    transform: scale(1.05);
-    -webkit-filter: drop-shadow(15px 10px 5px rgb(188, 194, 229));
-    filter: drop-shadow(15px 10px 5px rgb(188, 194, 229));
+    transition: all 0.5s;
+    transform: scale(1.10);
   }
   
   .icones_curso {
@@ -69,5 +66,5 @@
   }
   
   .card_texto_curso{
-    font-size: 4rem;
+    font-size: 4.2rem;
   }

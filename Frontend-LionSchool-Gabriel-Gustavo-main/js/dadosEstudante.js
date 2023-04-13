@@ -123,7 +123,7 @@ const filtragemDadosCurso = async function () {
         // grade com barras da cor vermelha
         grade.style.color = "#ff0000";
         barras[indice].style.backgroundColor = "#ff0000";
-        barras[indice].style.boxShadow = "0px 0px 24px #C11010";
+        barras[indice].style.boxShadow = "0px 0px 24px #ff0000";
         barras[indice].style.height = `${gradeBaixoDesempenho}%`;
         barras[indice].style.width = "100%";
 
@@ -136,7 +136,7 @@ const filtragemDadosCurso = async function () {
         // grade com barras da cor amarela
         grade.style.color = "#ffff00";
         barras[indice].style.backgroundColor = "#ffff00";
-        barras[indice].style.boxShadow = "0px 0px 24px #E5B657";
+        barras[indice].style.boxShadow = "0px 0px 24px #ffff00";
         barras[indice].style.height = `${gradeMedioDesempenho}%`;
         barras[indice].style.width = "100%";
 
@@ -149,7 +149,7 @@ const filtragemDadosCurso = async function () {
         // grade com barras da cor ciano
         grade.style.color = "#00ffff";
         barras[indice].style.backgroundColor = "#00ffff";
-        barras[indice].style.boxShadow = "0px 0px 24px #3347B0";
+        barras[indice].style.boxShadow = "0px 0px 24px #00ffff";
         barras[indice].style.height = `${gradeOtimoDesempenho}%`;
         barras[indice].style.width = "100%";
       }
@@ -172,7 +172,7 @@ const filtragemDadosCurso = async function () {
         // grade com barras da cor vermelha
         grade.style.color = "#ff0000";
         barras[indice].style.backgroundColor = "#ff0000";
-        barras[indice].style.boxShadow = "0px 0px 24px #C11010";
+        barras[indice].style.boxShadow = "0px 0px 24px #ff0000";
         barras[indice].style.width = `${gradeBaixoDesempenho}%`;
         barras[indice].style.height = "100%";
 
@@ -185,7 +185,7 @@ const filtragemDadosCurso = async function () {
         // grade com barras da cor amarela
         grade.style.color = "#ffff00";
         barras[indice].style.backgroundColor = "#ffff00";
-        barras[indice].style.boxShadow = "0px 0px 24px #E5B657";
+        barras[indice].style.boxShadow = "0px 0px 24px #ffff00";
         barras[indice].style.width = `${grandeMedioDesempenho}%`;
         barras[indice].style.height = "100%";
         
@@ -198,7 +198,7 @@ const filtragemDadosCurso = async function () {
         // grade com barras da cor ciano
         grade.style.color = "#00ffff";
         barras[indice].style.backgroundColor = "#00ffff";
-        barras[indice].style.boxShadow = "0px 0px 24px #3347B0";
+        barras[indice].style.boxShadow = "0px 0px 24px #00ffff";
         barras[indice].style.width = `${gradeOtimoDesempenho}%`;
         barras[indice].style.height = "100%";
 
