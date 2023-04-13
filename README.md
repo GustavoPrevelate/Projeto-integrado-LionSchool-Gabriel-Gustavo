@@ -27,7 +27,7 @@ Site da escola Lion school. O objetivo deste projeto é colocar em prática os c
 
 - Figma
 
-![Screenshot](./img-readme/figma.png)
+![Screenshot](./img-readme/figma-site.png)
 
 [Clique aqui](https://www.figma.com/file/r4BhHJzzHDcv9LK333T2d5/LionSchool?node-id=0-1&t=fd15MEUdozzYvWnK-0) para visitar o Figma.
 
@@ -45,7 +45,7 @@ Site da escola Lion school. O objetivo deste projeto é colocar em prática os c
 
 - Aluno
 
-![Screenshot](./img-readme/aluno.png)
+![Screenshot](./img-readme/aluno-especificado.png)
 
 ---
 ## Relatórios do LightHouse
@@ -55,9 +55,13 @@ O LightHouse basicamente analisa todo o seu site, indicando como está determina
 
 ![Report](./img-readme/home-light-house.png)
 
-- LightHouse alunos
+- LightHouse alunos Desenvolvimento
 
-![Report](./img-readme/alunos-light-house.png)
+![Report](./img-readme/desenvolvimento-light-house.png)
+
+- LightHouse alunos Redes
+
+![Report](./img-readme/redes-light-house.png)
 
 - LightHouse aluno
 
